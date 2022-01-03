@@ -1,15 +1,16 @@
 !pip install praw
 import praw
+import time
+import random
 reddit = praw.Reddit(
     client_id="BkKWoie6bDWNlkHti7Lptw",
     client_secret="eZGedgMdbicHBn6u5s2xbrct-P4rlQ",
     user_agent="my user agent",
     username="uxdesigning",
     password="kamouche@123",
-    check_for_async = False)
+    check_for_async = False
+)
 
-import time
-import random
 def karma():
   try:
     message = ["Upvoted, Upvote in return?", "Great post, care to share the upvotes!"]
