@@ -1,3 +1,4 @@
+!pip install praw
 import praw
 reddit = praw.Reddit(
     client_id="BkKWoie6bDWNlkHti7Lptw",
