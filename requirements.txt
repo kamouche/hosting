@@ -20,4 +20,5 @@ soupsieve==2.2.1
 toml==0.10.2
 urllib3==1.26.7
 praw==7.5.0
-time==3.2
+time==3.2.0
+
