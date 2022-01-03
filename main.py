@@ -5,8 +5,8 @@ reddit = praw.Reddit(
     user_agent="my user agent",
     username="uxdesigning",
     password="kamouche@123",
-    check_for_async = False
-)
+    check_for_async = False)
+
 import time
 import random
 def karma():
